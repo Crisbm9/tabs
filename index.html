@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-tabs.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>GENERADOR DE CODIGOS QR</h1>
+    <div> <img src="14414920-código-qr.jpg" width="100px"></div>
+  </header>
+  <div class="container">
+    
+    <div class="tab-component">
+      <!-- listado de pestañas -->
+      <ul class="tab-list">
+        <li><a href="#" class="tab-link">URL</a></li>
+        <li><a href="#" class="tab-link">TEXTO</a></li>
+        <li><a href="#" class="tab-link">IMAGEN</a></li>
+        <li><a href="#" class="tab-link">EMAIL</a></li>
+        <li><a href="#" class="tab-link">PDF</a></li>
+        <li><a href="#" class="tab-link">LOCALIZACION</a></li>
+      </ul>
+      <!-- contenido de pestañas -->
+      <div class="tab-content">
+        <div class="tab-pane">
+          Insertar url <input>
+          <button>crear qr</button>
+        </div>
+        <div class="tab-pane">
+          <textarea rows="10" cols="40">Insertar texto</textarea>
+          <button>crear qr</button>
+        </div>
+        <div class="tab-pane">
+          <input type="file"></input>
+          <button>crear qr</button>
+        </div>
+        <div class="tab-pane">
+          Insertar email <input type="email">
+          <button>crear qr</button>
+        </div>
+        <div class="tab-pane">
+          <input type="file"></input>
+          <button>crear qr</button>
+        </div>
+        <div class="tab-pane">
+          Localizacion 
+          <br>
+          <br>
+          Latitud <input>
+          <br>
+          Longitud <input>
+          <button>crear qr</button>
+        </div>
+      </div>
+    </div>
+    <div class="decoracion">
+       <h2>ELIGE DISEÑO</h2> 
+      <br>
+      Elige color <input type="color">
+      <br>
+      <br>
+      Elige forma
+      <input type="radio" name="transporte" value="1">  <img src="images.png" width="50px">
+     
+      <input type="radio" name="transporte" value="2">  <img src="2819686.png" width="50px">
+      
+      <input type="radio" name="transporte" value="3">  <img src="3144541.png" width="50px">
+      <br>
+      <br>
+      Elige tamaño
+      (en pixeles) <input>
+      <br>
+      <br>
+        Insertar logotipo<input type="file"> 
+        <br>
+        <br>
+      <button class="segundo">Generar qr</button>
+    </div>
+
+    </div>
+  
+<script src="script.js"></script>
+</body>
+</html>

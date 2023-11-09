@@ -1,0 +1,49 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.tab-content .tab-pane {
+  display: none;
+  
+} 
+.tab-content .tab-pane:first-child {
+  display: block;
+}
+.container{
+  padding: 2em;
+  background-color: rgb(182, 225, 235);
+}
+header{
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(245, 198, 131);
+}
+.container{
+    column-count:2;
+    column-rule:4px dotted gray;
+    
+}
+.tab-pane{
+    padding-bottom: 10em;
+    padding-top: 2em;
+}
+
+body{
+  background-color: rgb(182, 225, 235);
+}
+.tab-pane{
+  background-color: whitesmoke;
+  border-radius: 1em 1em;
+}
+.decoracion{
+  background-color: rgb(245, 245, 245);
+  padding: 1em;
+  border-radius: 1em 1em;
+}
+h2{
+  text-align: center;
+}
+header{
+  border: 2px solid #000;
+}
